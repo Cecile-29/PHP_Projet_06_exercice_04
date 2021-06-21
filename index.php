@@ -42,7 +42,7 @@
                     } elseif(!preg_match("/^[a-zA-Z àâäéèêëïîôöùûüÿ-]*$/", $result)) {
                     echo "<script language='JavaScript'>alert('Seulement les lettres et les espaces sont autorisés !')</script>";
                     } else {
-                    echo 'NOM : '. $_POST['civility'];
+                    echo 'CIVILITÉ : '. $_POST['civility'];
                     }
                 }
 
